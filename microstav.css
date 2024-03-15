@@ -6,8 +6,13 @@ header {
     align-items: center;
 }
 
+img{
+    width: 250px;
+    height: 200px;}
+
 .logo{
-    margin: 5px;
+    
+
 }
 
 a{
