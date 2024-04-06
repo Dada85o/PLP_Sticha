@@ -14,10 +14,9 @@
             <img src="obr/Cihly_micro.png" alt="">
         </div>
         <div class="odkaz">
-            <a href="kontakty.html">Kontaky</a>
             <a href="#">O nás</a>
+            <a href="kontakty.html">Kontaky</a>
             <a href="foto.html">Fotogalerie</a>
-            <a href="microstav.html">Home</a>
         </div>
     </header>
 

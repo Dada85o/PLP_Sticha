@@ -1,3 +1,7 @@
+@media only screen and (max-device-width: 1000px) {
+
+}
+
 /*hlavička*/
 header {
     display: flex;
@@ -6,9 +10,10 @@ header {
     align-items: center;
 }
 
-img{
-    width: 250px;
-    height: 200px;}
+header img{
+    width: 150px;
+    height: 120px;
+}
 
 
 a{
@@ -24,7 +29,7 @@ body {
 }
 
 .prace{
-    margin: 25px;
+    margin: 30px;
 }
 
 
@@ -41,32 +46,22 @@ footer{
 }
 
 
-h1{
+h2{
     text-decoration: underline;
 }
 
+
 /*2. str. KONTAKTY*/
 .kontakt{
-    margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 70px;
+    padding: 10px;
     color: black;
 }
 
-/*CIHLY*/
-.cihla1{
-    margin: auto;
-}
-
-.cihla2{
-    margin: auto;
-}
-
-.cihla3{
-    margin: auto;
-}
 
 /*2x str. ADRESA*/
 .adresa{
-    margin-left: 800px;
-    margin-top: 0;
+    margin-left: 350px;
+    padding: 10px;
 }
+
