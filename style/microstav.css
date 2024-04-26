@@ -15,6 +15,12 @@ header img{
     height: 120px;
 }
 
+.nadpis{
+    color: black;
+    padding: 6px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
 a{
     margin-right: 50px;
     color: black;
@@ -46,6 +52,15 @@ a:hover {
     background-size: 0 3px, 100% 3px;
 }
 
+.wrapper{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*body*/
 body {
     margin: 0;
@@ -59,6 +74,11 @@ body {
 img{
     width: 150px;
     height: 120px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
 }
 
 /*patička*/
@@ -123,3 +143,29 @@ footer{
         padding: 10px;
     }
 }
+
+/*Hlavička mobile*/
+@media only screen and (max-width: 460px) {
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+header img{
+    width: 150px;
+    height: 120px;
+}
+
+.nadpis{
+    font-size: 0;
+}
+
+a{
+    margin-right: 50px;
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: large;
+}}
