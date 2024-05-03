@@ -61,14 +61,39 @@ a:hover {
     align-items: center;
 }
 
-/*body*/
+/*main*/
 body {
-    margin: 0;
-    background-color: lightgray;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main{
+    background-color: lightgrey;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .prace{
     margin: 30px;
+    padding-left: 35px;
+}
+
+.prace p{
+    font-size: 25px;
+}
+
+.prace h1{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.prace ul{
+    font-size: 20px;
 }
 
 img{
@@ -83,14 +108,14 @@ img{
 
 /*patička*/
 footer{
-    margin: 0;
     background-color: rgb(165, 57, 33);
     color: white;
     text-align: center;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 10px;
     padding: 25px;
+
 }
 
 .OtvD{
