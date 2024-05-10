@@ -68,6 +68,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
 }
 
 main{
@@ -75,24 +76,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.prace{
-    margin: 30px;
-    padding-left: 35px;
-}
-
-.prace p{
-    font-size: 15px;
-}
-
-.prace h1{
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-.prace ul{
-    font-size: 20px;
 }
 
 img{
@@ -105,19 +88,10 @@ img{
     margin: auto;
 }
 
-.container2{
-
-}
-
-
 /*Cards*/
-.flip-card {
-    background-color: transparent;
-    width: 150px;
-    height: 100px;
-    border: 1px solid #000000;
-    perspective: 1000px;
-  }
+.flip-card{
+    border: 2px solid black;
+}
 
 .flip-card-inner {
   position: relative;
@@ -138,6 +112,7 @@ img{
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  font-size: x-large;
 }
 
 .flip-card-front {
